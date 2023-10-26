@@ -1,0 +1,51 @@
+:root {
+  --main-text-color: #e7f4ff;
+  --accent-text-color: #70bbff;
+  --accent-btn-color: #70bbff;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form {
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-bottom: 20px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  max-width: 250px;
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+  border-radius: 5px;
+}
+.input {
+  display: block;
+  width: 90%;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4px 0;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 5px 17px;
+  background-color: var(--main-text-color);
+  border-radius: 5px;
+  border: none;
+}
+.btn:focus {
+  background-color: var(--accent-btn-color);
+}
+.btn:hover {
+  background-color: var(--accent-btn-color);
+}
